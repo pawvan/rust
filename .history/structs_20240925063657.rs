@@ -30,6 +30,3 @@ let dy=self.y-other.y;
 
 //unit-like struct
  struct Marker;
-
-
- 

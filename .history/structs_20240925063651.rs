@@ -1,5 +1,5 @@
 
-//struct definnation 
+
 struct Point{
     x:f64,
     y:f64
@@ -30,6 +30,3 @@ let dy=self.y-other.y;
 
 //unit-like struct
  struct Marker;
-
-
- 
