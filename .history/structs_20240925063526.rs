@@ -22,6 +22,4 @@ let dy=self.y-other.y;
  }
 
 
- struct Color(u8,u8,u8);
- let black =Color(0,0,0,);
- 
+ struct Color()
