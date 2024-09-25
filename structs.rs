@@ -29,8 +29,8 @@ trait Summary{
  let black =Color(0,0,0,);
 
 imp Point {
-    fn distance(&self,&other:&Point)>f64{
-    let dx = self.x -other.x;
+    fn distance(&self,&other:&Point)->f64{
+    let dx = self.x - other.x;
 let dy = self.y-other.y;
 (dx.powi(2)+dy.powi(2).sqrt()
  }
@@ -75,6 +75,6 @@ trait origi{
 imp Orgi for User{
 
     fn summ(&self)->String {
-    
+    format!("{}, ({})" ,self.username,selft.email);
     }
 }
