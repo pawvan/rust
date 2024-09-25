@@ -1,5 +1,3 @@
-
-
 struct Point{
     x:f64,
     y:f64
@@ -9,7 +7,7 @@ struct Point{
     fn distance(&self,other:&Point)->f64{
         let dx = self.x-other.x;
 let dy=self.y-other.y;
-(dx.powi(2)+dy,powi(2)).sqrt()
+(dx.powi(2)+dy.powi(2)).sqrt()
     
     }
  }
@@ -24,4 +22,23 @@ let dy=self.y-other.y;
 
  struct Color(u8,u8,u8);
  let black =Color(0,0,0,);
- 
+
+imp Point {
+    fn distance(&self,&other:&Point)>f64{
+    let dx = self.x -other.x;
+let dy = self.y-other.y;
+(dx.powi(2)+dy.powi(2).sqrt()
+ }
+
+}
+ struct Point{
+     x:0;
+     y:0;
+ }
+imp Point{
+    fn origin()->Point{
+  Point {x:0,y:0}; 
+    }
+ }
+struct Color(u8,u8,u8);
+let black =Color(0,0,0);
