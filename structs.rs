@@ -68,3 +68,13 @@ imp Summary for User {
     format!("{} ,({})", self.username,self.email);
     }
 }
+trait origi{
+    fn summ(&self)->String 
+    
+}
+imp Orgi for User{
+
+    fn summ(&self)->String {
+    
+    }
+}
