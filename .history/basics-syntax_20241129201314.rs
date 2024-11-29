@@ -6,23 +6,8 @@ enum Direction{
 }
 fn main(){
     
-    let mut vec = Vec::new();
-    vec.push(10);
-
-    println!(":{}",vec[0]);
-    for num in vec{
-        println!("{}",num);
-    }
-    let veccc  = vec![1,2,3,4];
-    for numzz in &veccc{
-        println!("{}",numzz);
-
-    }
-    let mut mut_vec =vec![1,2,3,4,5];
-    vec.push(4);
-    vec[0]=10;
-    println!("{}".mut_vec);
-     
+    
+    
     let arr:[i32;5] =[1,2,3,4,5];
     println!("first element {}",arr[0]);
     let x = String::from("hello world");

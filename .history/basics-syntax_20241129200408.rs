@@ -5,26 +5,10 @@ enum Direction{
     Right,
 }
 fn main(){
-    
-    let mut vec = Vec::new();
-    vec.push(10);
-
-    println!(":{}",vec[0]);
-    for num in vec{
-        println!("{}",num);
-    }
-    let veccc  = vec![1,2,3,4];
-    for numzz in &veccc{
-        println!("{}",numzz);
-
-    }
-    let mut mut_vec =vec![1,2,3,4,5];
-    vec.push(4);
-    vec[0]=10;
-    println!("{}".mut_vec);
-     
     let arr:[i32;5] =[1,2,3,4,5];
     println!("first element {}",arr[0]);
+    let arr2 :[i32;5] =[4,3,2,1];
+    println!("first element of arr2 :",arr2[])
     let x = String::from("hello world");
     println!("{}",x);
     let sz =String::from("lol");
@@ -44,11 +28,6 @@ say_hello();
 let s1= String::from("hello world");
 let s_ref=&s1;
 let s_ref2=&s1;
-let tuple :(i32,f64,char) = (42,3.14,'a');
-let tuple2 :(i32,f64,char)=(19,3.4,'l');
-let (x,y,z) =tuple2;
-println!("{},{},{}",x,y,z);
-println!("{}",tuple2.1);
 println!("{}",s_ref2);
 println!("{}",s_ref);
     greet("pawan");

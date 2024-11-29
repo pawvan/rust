@@ -22,7 +22,7 @@ fn main(){
     vec.push(4);
     vec[0]=10;
     println!("{}".mut_vec);
-     
+    
     let arr:[i32;5] =[1,2,3,4,5];
     println!("first element {}",arr[0]);
     let x = String::from("hello world");
