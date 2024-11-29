@@ -6,14 +6,7 @@ enum Direction{
 }
 fn main(){
     let x = String::from("hello world");
-    println!("{}",x);
-    let sz =String::from("lol");
-    let swe  = String::from("rustzzz");
-    borrow_string(&swe);
-    println!("{}",swe);
-    transfer_ownership(sz);
-    let mut sfd  = String::from("ittnvotnvotv");
-    modify_string(&mut sfd);  
+    println!("{}",x);  
 let div_value=div(1,2);
 println!("{}",div_value );
 let mut mut_borrow =String::from("borrow");
@@ -147,13 +140,6 @@ fn process_input(input:i32){
         }
     }
 }
-fn transfer_ownership(s:String){
-println!("{}",s);
-}
-fn borrow_string(s:&String){
-    println!("{}",s);
-
-}
-fn modify_string(s:&mut String){
-    s.push_str("lolll");
+fn transfer_pwnership(s:String){
+    
 }

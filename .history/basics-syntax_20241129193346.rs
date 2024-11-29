@@ -6,26 +6,17 @@ enum Direction{
 }
 fn main(){
     let x = String::from("hello world");
-    println!("{}",x);
-    let sz =String::from("lol");
-    let swe  = String::from("rustzzz");
-    borrow_string(&swe);
-    println!("{}",swe);
-    transfer_ownership(sz);
-    let mut sfd  = String::from("ittnvotnvotv");
-    modify_string(&mut sfd);  
+    println!("{}",x);  
 let div_value=div(1,2);
 println!("{}",div_value );
-let mut mut_borrow =String::from("borrow");
-let mut_borrow_ref=&mut mut_borrow;
-mut_borrow_ref.push_str("changed");
-println!("{}",mut_borrow_ref);
 say_hello();
 let s1= String::from("hello world");
 let s_ref=&s1;
 let s_ref2=&s1;
 println!("{}",s_ref2);
 println!("{}",s_ref);
+
+println!("{}",s2);
     greet("pawan");
     recieved_message("hi");
 check_number(8);
@@ -146,14 +137,4 @@ fn process_input(input:i32){
             println!("input is out of range");
         }
     }
-}
-fn transfer_ownership(s:String){
-println!("{}",s);
-}
-fn borrow_string(s:&String){
-    println!("{}",s);
-
-}
-fn modify_string(s:&mut String){
-    s.push_str("lolll");
 }

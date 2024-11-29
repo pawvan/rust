@@ -13,7 +13,7 @@ fn main(){
     println!("{}",swe);
     transfer_ownership(sz);
     let mut sfd  = String::from("ittnvotnvotv");
-    modify_string(&mut sfd);  
+    modify_string()  
 let div_value=div(1,2);
 println!("{}",div_value );
 let mut mut_borrow =String::from("borrow");
